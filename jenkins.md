@@ -1,8 +1,9 @@
 # Jenkins là gì?
 - Jenkins là nguồn mở được sử dụng thực hiện chức năng liên tục và xây dựng tự động hoá tác vụ
 - Nó tích hợp mã nguồn mở của các thành viên trong đội nhanh chóng liên tục, theo dõi thực thi và trạng thái thông qua bước kiểm thử ( kiểm thử tích hợp,kiểm thử đơn vị). Tất cả đều nhằm giúp sản phẩm chạy ổn đinh.
-![Minh hoạ](https://topdev.vn/blog/wp-content/uploads/2019/05/CICD.png "ảnh minh hoạ")
-![CICD](CICD.png"ảnh mình hoạ CICD")
+![Minh hoạ](jenkins.png "ảnh minh hoạ")
+
+![CICD](CICD.png "ảnh mình hoạ CICD")
 - CI là viết tắt của Continuous Intergration
   - là tích hợp liên tục, nhằm liên tục tích hợp các source code của các thành viên trong team lại một cách nhanh chóng.
 - Chu trình làm việc
