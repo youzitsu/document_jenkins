@@ -38,6 +38,7 @@ RUN jenkins-plugin-cli --plugins "blueocean:1.25.3 docker-workflow:1.28"`
 
    - lấy password từ câu lệnh sau:
     `docker exec -it jenkins-blueocean cat /var/jenkins_home/secrets/initialAdminPassword`
+    - copy password đó
     - trên trang unlock jenkins, paste password trên vào trường Administrator password và click continue.
 
 
