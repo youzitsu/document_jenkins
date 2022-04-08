@@ -34,10 +34,10 @@ RUN jenkins-plugin-cli --plugins "blueocean:1.25.3 docker-workflow:1.28"`
 8. Unlocking jenkins
    - Mở trình duyệt rồi truy cập vào địa chỉ:
     **`http://localhost:8080`**
-![unlock](\setup-jenkins-01-unlock-jenkins-page.jpg "images unlock jenkins")
+![unlock](setup-jenkins-01-unlock-jenkins-page.jpg "images unlock jenkins")
 
    - lấy password từ câu lệnh sau:
-    ``docker exec -it jenkins-blueocean cat /var/jenkins_home/secrets/initialAdminPassword`
+    `docker exec -it jenkins-blueocean cat /var/jenkins_home/secrets/initialAdminPassword`
     - trên trang unlock jenkins, paste password trên vào trường Administrator password và click continue.
 
 
